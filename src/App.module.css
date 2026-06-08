@@ -1,0 +1,38 @@
+.logo{
+    width: 700px;
+    height: auto;
+}
+
+h2{
+    font-size: 40px;
+    color: rgb(230, 167, 50);
+}
+
+.wrapimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card img{
+    height: 300px;
+    align-self: center;
+    }
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;    
+    background-color: rgb(255, 255, 255);  
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
